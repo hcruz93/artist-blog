@@ -20,28 +20,21 @@
     <div class="collapse navbar-collapse" id="navbarMenu">
       
       <!-- Centro -->
-      <ul class="navbar-nav mx-auto">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
+          <a class="nav-link" href="#">Sobre mi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Trayectoria</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Resources</a>
+          <a class="nav-link" href="#">Mi trabajo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Plans & Pricing</a>
+          <a class="nav-link" href="#">Contacto</a>
         </li>
       </ul>
 
-      <!-- Derecha -->
-      <div class="d-flex">
-        <a class="nav-link text-white me-3" href="#">Log In</a>
-        <button class="btn btn-outline-light">
-          Get Started
-        </button>
-      </div>
     </div>
   </nav>
 </template>
