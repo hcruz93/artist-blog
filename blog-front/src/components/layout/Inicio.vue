@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <!-- Hero -->
     <section class="hero-section position-relative d-flex align-items-center justify-content-center overflow-hidden">
       <img
@@ -29,10 +28,13 @@
           <h2 class="fw-bold mt-2 mb-3">Sobre el Artista</h2>
           <hr class="border-danger w-25 border-2 opacity-100 mb-4">
           <p class="text-secondary mb-4">
-            Mi nombre es Julián, y en este rincón del mundo, el tiempo se detiene. Utilizo técnicas ancestrales
-            para moldear el barro y teñir fibras naturales, buscando siempre ese diálogo íntimo entre la materia
-            prima y la intención del corazón. Cada obra es única, irrepetible, y nace de un profundo respeto por
-            la sostenibilidad.
+            Mi nombre es Gabriel Gutiérrez Santillan y, en este rincón del mundo, 
+            el tiempo se detiene para dar vida a lo que imagino. A través del barro, 
+            la nobleza de la cartonería y el sutil entrelazado de los textiles, 
+            busco siempre un diálogo íntimo entre la materia prima y la intención del corazón. 
+            Cada obra es única, irrepetible, 
+            y nace de un profundo respeto por los oficios manuales y 
+            la paciencia que cada pieza merece.
           </p>
           <a href="#" class="btn btn-outline-secondary d-inline-flex align-items-center gap-2">
             Conoce mi historia
@@ -41,9 +43,10 @@
         </div>
         <div class="col-md-7 order-1 order-md-2">
           <img
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKlvJMzyts43s2PfsXCBaq-j6wluSmL3PTJUnqjli2tYfOztPUbjYCpduJtkZxZJR-DMHJiM-0asbvfT9LeX6uu-5bvhfBgxkh13P4Wxaai1vM3icC7rNZix8_uu3T__8sPtRjODlgmjO7ufWNXFp1HqJoUgecW2ziyUIUh0703dbg1Ppx1hnj-ZcJ_-qwnrwFyWrkC7K8tfIl2kKnP6EvSGPenYVcrOeNbeKfaUqYoWxrJbw2M3PQ0s5OoER7LefKIsT5F6QmsBY"
+            src="@/assets/images/perfil_2.webp"
             alt="El artista trabajando"
             class="img-fluid rounded-3 shadow"
+            style="width: 90%"
           />
         </div>
       </div>
@@ -65,7 +68,7 @@
           <div class="col-md-6">
             <div class="obra-card position-relative overflow-hidden rounded-3 shadow h-100">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1nuhZ2mEG_seadwIAH4qeiMO4fVB3gZSiAtJNlpAbsplJ2SvvYgl2iaia836YrafGcM2gQhN-DaCre5u3-opK7Eam7EfwUTkvatdW_TM6XuSkg48L-BJfzoULoJdNV6b2nRviSZJ90Ujqe8tuHv5rKEN9vL-3Cqf06jiurHrh008JnR9OcDNElPkQvKMeZD_Y6hPq6Sp4IQ5wtySZjAPLbmYTQ2fPEddX3CWIyN1iMHQEbzV1nJSFc583zBYRH7ZBVcJFag32Eok"
+                src="@/assets/images/galeria_1.webp"
                 alt="Vasija de barro"
                 class="w-100 h-100 object-fit-cover obra-img"
               />
@@ -80,9 +83,9 @@
           <div class="col-md-6">
             <div class="row g-3 h-100">
               <div class="col-12">
-                <div class="obra-card position-relative overflow-hidden rounded-3 shadow" style="height: 200px;">
+                <div class="obra-card position-relative overflow-hidden rounded-3 shadow" style="height: 450px;">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfsValWnJYj8F0ufZmKJtSeYg8geNXzW_0oRX7oEWLsoEopRNXGlu8oj-ep_hYSDpnClUMysrBqIQhpCjO7wnShZG-EP_qMe5aagNucBCFCiQRyYPSv0v3iCrPbLQ-xHFzcJCbiK4nQsZrFYqpAdnQPqvSdfQDJWU6shnlG1ioN8f-dqWqJKrRE_z5n4zZEgIBp0Xs2E_yxioZkEJp7JkSmlYkib3WBLgfoj5iu42SmpIwuAvwR1siiFOl6lZ9Vj1VrD7N7FRY0"
+                    src="@/assets/images/galeria_2.webp"
                     alt="Tejido artesanal"
                     class="w-100 h-100 object-fit-cover obra-img"
                   />
@@ -94,7 +97,7 @@
               <div class="col-6">
                 <div class="obra-card position-relative overflow-hidden rounded-3 shadow" style="height: 200px;">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2egOpeRs4kjDcHn0q-9rFwlyLUvg-dCfqDsJeUAo7TKep1mcM6IyvgdnF_RAcTIlViBLybezsEMNqMMwAxQVqwQ25N_MDUPf0kwsLtPQFCdyF11T3rirBDidj8C0bcAyF57Pmr3FDM1-LMyQJEjUVdLS6r_FVlyspZg9V5U9htV1qV8M8ts2KdeTca-KcdLWoVPNoBoSl-ILdU5upxm0cffup1ObPUmzmXKbmXpwqWrRp3btSP9-JBNVICrYlTBOfzRzWbEhUh0Q"
+                    src="@/assets/images/galeria_3.webp"
                     alt="Herramientas"
                     class="w-100 h-100 object-fit-cover obra-img"
                   />
@@ -106,7 +109,7 @@
               <div class="col-6">
                 <div class="obra-card position-relative overflow-hidden rounded-3 shadow" style="height: 200px;">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5Tx3G6_jhHBe2--w7RMWy1Q47mL5dWo5aGkr3U-A7HB2qw2JJNtCZEr5RTAhvTqrOLUP1H3OphC2Ty6JDm5jtZJ50xsCV8kdOY83xOfHVpl15X4uHi0Jvm39md2YkFR7WhZokoTpUTVHEHdL6Lo2VSIYOw_a8Obadzv-QQfEKqUIF5JTthS90eRvWE0mf-ehprHbeZudmX_ZVtipUFgF8e_OhwNcofgeUl7A-PNW9qq_IeHNZzDfgHTJvrPCp8uI-4"
+                    src="@/assets/images/galeria_4.webp"
                     alt="Cuenco de madera"
                     class="w-100 h-100 object-fit-cover obra-img"
                   />
@@ -147,7 +150,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, reactive } from 'vue'
 
 const heroImg = ref(null)
 const email = ref('')
@@ -167,30 +170,3 @@ const onSubscribe = () => {
 onMounted(() => window.addEventListener('scroll', onScroll))
 onUnmounted(() => window.removeEventListener('scroll', onScroll))
 </script>
-
-<style scoped>
-.hero-section {
-  height: 819px;
-}
-.hero-img {
-  object-position: center;
-  filter: brightness(0.85);
-}
-.obra-card .obra-img {
-  transition: transform 0.6s ease;
-}
-.obra-card:hover .obra-img {
-  transform: scale(1.05);
-}
-.obra-overlay {
-  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
-}
-.obra-hover {
-  background: rgba(0,0,0,0.2);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-.obra-card:hover .obra-hover {
-  opacity: 1;
-}
-</style>

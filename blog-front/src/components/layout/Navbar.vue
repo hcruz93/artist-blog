@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-md container py-3">
       
       <!-- Logo -->
-      <a class="navbar-brand fw-bold fs-4 text-danger" href="#">
+      <a class="navbar-brand fw-bold fs-2 text-danger" href="#">
         tltk_art
       </a>
 
