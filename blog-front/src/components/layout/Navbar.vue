@@ -25,7 +25,12 @@
             <a class="nav-link active fw-semibold" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Biografía</a>
+            <router-link
+              class="nav-link text-secondary"
+              to="/biografia"
+            >
+              Galería
+            </router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link text-secondary" href="#">Galería</a>
