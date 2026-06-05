@@ -46,10 +46,12 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Contacto</a>
+            <router-link
+              class="nav-link text-secondary"
+              to="/contacto"
+            >
+              Contacto
+            </router-link>
           </li>
         </ul>
 
