@@ -22,18 +22,28 @@
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav mx-auto gap-3">
           <li class="nav-item">
-            <a class="nav-link active fw-semibold" href="#">Inicio</a>
+            <router-link
+              class="nav-link text-secondary"
+              to="/"
+            >
+              Inicio
+            </router-link>
           </li>
           <li class="nav-item">
             <router-link
               class="nav-link text-secondary"
               to="/biografia"
             >
-              Galería
+              Biografía
             </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="#">Galería</a>
+            <router-link
+              class="nav-link text-secondary"
+              to="/galeria"
+            >
+              galeria
+            </router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link text-secondary" href="#">Blog</a>
