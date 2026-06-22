@@ -9,7 +9,7 @@
         <div class="col-md-7 position-relative">
           <div class="overflow-hidden rounded-3 shadow">
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCdYi7RzPgcIXLkAIaSu5hSaPSHj0obu1P_mtX0Exe7ZZgwBTUCnG4shEb_9jIijnNe_kqFseaEWLIW--HIkVPN7ofjR5j7oa4bpnC_01DXut6fWetajgWgd_J5OIKTKnreyZv4SdN_GXcFfKAYQ8acejrfNp7HAoM5cB5Rt3JV8rLaTzRmNx63FBWx_1EBAS68zadGOvi2k60j52GpUOe2bF1TB4RMfr3K6ZRdCphq_XIdHzOzQDiewsRw-2qIoaz6y_eR9S6f0E"
+              src="@/assets/images/bio_1.webp"
               alt="Manos del artista"
               class="img-fluid w-100 hero-artist-img"
             />
@@ -22,10 +22,13 @@
         </div>
 
         <div class="col-md-5 d-flex flex-column gap-3 mt-5 mt-md-0">
-          <span class="text-danger fw-bold text-uppercase small">FUNDADORA & ARTESANA</span>
-          <h1 class="display-4 fw-bold">Elena Mistral</h1>
+          <span class="text-danger fw-bold text-uppercase small">FUNDADOR & ARTESANO</span>
+          <h1 class="display-4 fw-bold">Gabriel Gutíerrez</h1>
           <p class="text-secondary fs-5 lh-lg">
-            Nacida entre los valles del norte, mi historia comenzó observando el ritmo pausado de las estaciones y la honestidad de los materiales nobles.
+            Nacido en la Ciudad de México, mi camino comenzó entre la energía de 
+            sus calles y la tranquilidad de mi hogar. Fue ahí donde, 
+            experimentando con distintos materiales, descubrí la pasión por 
+            transformar ideas en piezas hechas a mano.
           </p>
         </div>
 
@@ -160,27 +163,6 @@
       </div>
     </section>
 
-    <!-- Newsletter -->
-    <section class="container py-5 my-5 text-center">
-      <div class="bg-light rounded-4 shadow p-5 d-flex flex-column align-items-center gap-4">
-        <h3 class="display-6 fw-bold">Únete al movimiento lento</h3>
-        <p class="text-secondary fs-5" style="max-width: 500px;">
-          Suscríbete para recibir historias sobre nuevos procesos, lanzamientos exclusivos y reflexiones sobre la vida artesanal.
-        </p>
-        <div class="d-flex flex-column flex-md-row gap-3 w-100 justify-content-center" style="max-width: 500px;">
-          <input
-            v-model="email"
-            type="email"
-            class="form-control py-3 px-4"
-            placeholder="Tu correo electrónico"
-          />
-          <button class="btn btn-danger px-4 fw-bold" @click="onSubscribe">
-            SUSCRIBIRSE
-          </button>
-        </div>
-      </div>
-    </section>
-
   </main>
 </template>
 
@@ -208,28 +190,3 @@ const revealSections = () => {
 onMounted(() => window.addEventListener('scroll', revealSections))
 onUnmounted(() => window.removeEventListener('scroll', revealSections))
 </script>
-
-<style scoped>
-.hero-artist-img {
-  height: 500px;
-  object-fit: cover;
-  filter: grayscale(20%);
-  transition: transform 0.7s ease;
-}
-.hero-artist-img:hover {
-  transform: scale(1.05);
-}
-.studio-img {
-  height: 600px;
-  object-fit: cover;
-}
-.material-card .material-img {
-  transition: transform 0.5s ease;
-}
-.material-card:hover .material-img {
-  transform: scale(1.1);
-}
-.material-overlay {
-  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
-}
-</style>
